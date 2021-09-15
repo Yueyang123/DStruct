@@ -1,0 +1,11 @@
+{
+    "files.associations": {
+        "assert.h": "c",
+        "dslist.h": "c",
+        "typeinfo": "cpp",
+        "limits": "c",
+        "ds.h": "c",
+        "dsstack.h": "c",
+        "dsmgraph.h": "c"
+    }
+}
