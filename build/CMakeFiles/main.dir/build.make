@@ -145,10 +145,24 @@ CMakeFiles/main.dir/src/dsSingleLink.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/main.dir/src/dsSingleLink.c.s"
 	C:\MinGW\x86_64-8.1.0-release-posix-seh-rt_v6-rev0\mingw64\bin\x86_64-w64-mingw32-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S F:\SDK\DataStruct\src\dsSingleLink.c -o CMakeFiles\main.dir\src\dsSingleLink.c.s
 
+CMakeFiles/main.dir/src/dsSort.c.obj: CMakeFiles/main.dir/flags.make
+CMakeFiles/main.dir/src/dsSort.c.obj: CMakeFiles/main.dir/includes_C.rsp
+CMakeFiles/main.dir/src/dsSort.c.obj: ../src/dsSort.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\SDK\DataStruct\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/main.dir/src/dsSort.c.obj"
+	C:\MinGW\x86_64-8.1.0-release-posix-seh-rt_v6-rev0\mingw64\bin\x86_64-w64-mingw32-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\main.dir\src\dsSort.c.obj -c F:\SDK\DataStruct\src\dsSort.c
+
+CMakeFiles/main.dir/src/dsSort.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/main.dir/src/dsSort.c.i"
+	C:\MinGW\x86_64-8.1.0-release-posix-seh-rt_v6-rev0\mingw64\bin\x86_64-w64-mingw32-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E F:\SDK\DataStruct\src\dsSort.c > CMakeFiles\main.dir\src\dsSort.c.i
+
+CMakeFiles/main.dir/src/dsSort.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/main.dir/src/dsSort.c.s"
+	C:\MinGW\x86_64-8.1.0-release-posix-seh-rt_v6-rev0\mingw64\bin\x86_64-w64-mingw32-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S F:\SDK\DataStruct\src\dsSort.c -o CMakeFiles\main.dir\src\dsSort.c.s
+
 CMakeFiles/main.dir/src/dsStack.c.obj: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/src/dsStack.c.obj: CMakeFiles/main.dir/includes_C.rsp
 CMakeFiles/main.dir/src/dsStack.c.obj: ../src/dsStack.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\SDK\DataStruct\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/main.dir/src/dsStack.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\SDK\DataStruct\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/main.dir/src/dsStack.c.obj"
 	C:\MinGW\x86_64-8.1.0-release-posix-seh-rt_v6-rev0\mingw64\bin\x86_64-w64-mingw32-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\main.dir\src\dsStack.c.obj -c F:\SDK\DataStruct\src\dsStack.c
 
 CMakeFiles/main.dir/src/dsStack.c.i: cmake_force
@@ -162,7 +176,7 @@ CMakeFiles/main.dir/src/dsStack.c.s: cmake_force
 CMakeFiles/main.dir/src/main.c.obj: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/src/main.c.obj: CMakeFiles/main.dir/includes_C.rsp
 CMakeFiles/main.dir/src/main.c.obj: ../src/main.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\SDK\DataStruct\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/main.dir/src/main.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\SDK\DataStruct\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/main.dir/src/main.c.obj"
 	C:\MinGW\x86_64-8.1.0-release-posix-seh-rt_v6-rev0\mingw64\bin\x86_64-w64-mingw32-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\main.dir\src\main.c.obj -c F:\SDK\DataStruct\src\main.c
 
 CMakeFiles/main.dir/src/main.c.i: cmake_force
@@ -180,6 +194,7 @@ main_OBJECTS = \
 "CMakeFiles/main.dir/src/dsMGraph.c.obj" \
 "CMakeFiles/main.dir/src/dsQueue.c.obj" \
 "CMakeFiles/main.dir/src/dsSingleLink.c.obj" \
+"CMakeFiles/main.dir/src/dsSort.c.obj" \
 "CMakeFiles/main.dir/src/dsStack.c.obj" \
 "CMakeFiles/main.dir/src/main.c.obj"
 
@@ -191,13 +206,14 @@ main_EXTERNAL_OBJECTS =
 ../bin/main.exe: CMakeFiles/main.dir/src/dsMGraph.c.obj
 ../bin/main.exe: CMakeFiles/main.dir/src/dsQueue.c.obj
 ../bin/main.exe: CMakeFiles/main.dir/src/dsSingleLink.c.obj
+../bin/main.exe: CMakeFiles/main.dir/src/dsSort.c.obj
 ../bin/main.exe: CMakeFiles/main.dir/src/dsStack.c.obj
 ../bin/main.exe: CMakeFiles/main.dir/src/main.c.obj
 ../bin/main.exe: CMakeFiles/main.dir/build.make
 ../bin/main.exe: CMakeFiles/main.dir/linklibs.rsp
 ../bin/main.exe: CMakeFiles/main.dir/objects1.rsp
 ../bin/main.exe: CMakeFiles/main.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=F:\SDK\DataStruct\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking C executable ..\bin\main.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=F:\SDK\DataStruct\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking C executable ..\bin\main.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\main.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

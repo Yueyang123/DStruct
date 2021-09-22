@@ -9,6 +9,7 @@ set(CMAKE_DEPENDS_CHECK_C
   "F:/SDK/DataStruct/src/dsMGraph.c" "F:/SDK/DataStruct/build/CMakeFiles/main.dir/src/dsMGraph.c.obj"
   "F:/SDK/DataStruct/src/dsQueue.c" "F:/SDK/DataStruct/build/CMakeFiles/main.dir/src/dsQueue.c.obj"
   "F:/SDK/DataStruct/src/dsSingleLink.c" "F:/SDK/DataStruct/build/CMakeFiles/main.dir/src/dsSingleLink.c.obj"
+  "F:/SDK/DataStruct/src/dsSort.c" "F:/SDK/DataStruct/build/CMakeFiles/main.dir/src/dsSort.c.obj"
   "F:/SDK/DataStruct/src/dsStack.c" "F:/SDK/DataStruct/build/CMakeFiles/main.dir/src/dsStack.c.obj"
   "F:/SDK/DataStruct/src/main.c" "F:/SDK/DataStruct/build/CMakeFiles/main.dir/src/main.c.obj"
   )

@@ -6,6 +6,8 @@
         "limits": "c",
         "ds.h": "c",
         "dsstack.h": "c",
-        "dsmgraph.h": "c"
+        "dsmgraph.h": "c",
+        "HJ01.C": "cpp",
+        "iostream": "cpp"
     }
 }

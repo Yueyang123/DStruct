@@ -8,6 +8,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/main.dir/src/dsMGraph.c.obj"
   "CMakeFiles/main.dir/src/dsQueue.c.obj"
   "CMakeFiles/main.dir/src/dsSingleLink.c.obj"
+  "CMakeFiles/main.dir/src/dsSort.c.obj"
   "CMakeFiles/main.dir/src/dsStack.c.obj"
   "CMakeFiles/main.dir/src/main.c.obj"
 )

@@ -276,6 +276,33 @@ src/dsSingleLink.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/dsSingleLink.c.s
 .PHONY : src/dsSingleLink.c.s
 
+src/dsSort.obj: src/dsSort.c.obj
+
+.PHONY : src/dsSort.obj
+
+# target to build an object file
+src/dsSort.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/dsSort.c.obj
+.PHONY : src/dsSort.c.obj
+
+src/dsSort.i: src/dsSort.c.i
+
+.PHONY : src/dsSort.i
+
+# target to preprocess a source file
+src/dsSort.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/dsSort.c.i
+.PHONY : src/dsSort.c.i
+
+src/dsSort.s: src/dsSort.c.s
+
+.PHONY : src/dsSort.s
+
+# target to generate assembly for a file
+src/dsSort.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/dsSort.c.s
+.PHONY : src/dsSort.c.s
+
 src/dsStack.obj: src/dsStack.c.obj
 
 .PHONY : src/dsStack.obj
@@ -354,6 +381,9 @@ help:
 	@echo ... src/dsSingleLink.obj
 	@echo ... src/dsSingleLink.i
 	@echo ... src/dsSingleLink.s
+	@echo ... src/dsSort.obj
+	@echo ... src/dsSort.i
+	@echo ... src/dsSort.s
 	@echo ... src/dsStack.obj
 	@echo ... src/dsStack.i
 	@echo ... src/dsStack.s

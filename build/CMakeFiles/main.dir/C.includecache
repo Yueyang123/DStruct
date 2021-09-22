@@ -23,12 +23,20 @@ dsQueue.h
 ../include/dsQueue.h
 dsBinTree.h
 ../include/dsBinTree.h
+dsMGraph.h
+../include/dsMGraph.h
+dsSort.h
+../include/dsSort.h
 
 ../include/dsBinTree.h
 ds.h
 ../include/ds.h
 
 ../include/dsList.h
+ds.h
+../include/ds.h
+
+../include/dsMGraph.h
 ds.h
 ../include/ds.h
 
@@ -40,13 +48,15 @@ ds.h
 ds.h
 ../include/ds.h
 
+../include/dsSort.h
+ds.h
+../include/ds.h
+
 ../include/dsStack.h
 ds.h
 ../include/ds.h
 
-F:/SDK/DataStruct/src/dsBinTree.c
-ds.h
-F:/SDK/DataStruct/src/ds.h
-stdlib.h
--
+F:/SDK/DataStruct/src/dsSort.c
+dsSort.h
+F:/SDK/DataStruct/src/dsSort.h
 

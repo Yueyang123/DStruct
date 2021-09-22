@@ -6,7 +6,7 @@
  * @Website: www.heredifferent.com.cn
  * @Date: 2021-08-31 09:42:24
  * @LastEditors: YURI
- * @LastEditTime: 2021-09-09 09:59:23
+ * @LastEditTime: 2021-09-16 10:48:00
  */
 #ifndef DS_H
 #define DS_H
@@ -25,8 +25,9 @@
 //使用树
 #define USE_DSBINTREE       1
 //使用邻接矩阵图
-#define USE_DSMGRAPH       1
-
+#define USE_DSMGRAPH        1
+//使用排序工具
+#define USE_DSSORT          1
 enum DS_BOOL{
     ds_false=0,
     ds_true=1,
@@ -108,6 +109,16 @@ typedef unsigned char ds_bool ;
     #define DS_DSMGRAPH_ELEM_SHOW(A) printf("%d ",A)
     #define DS_DSMGRAPH_MAXSIZE    100
     #include "dsMGraph.h"
+#endif
+
+#if USE_DSSORT
+typedef int DSSortElemType;
+#define DS_DSSORT_ELEM_ISEQUAL(A,B) (A==B)
+//A是否大于B
+#define DS_DSSORT_ELEM_GREATER(A,B) (A>B)
+//输出
+#define DS_DSSORT_ELEM_SHOW(A) printf("%d ",A)
+#include "dsSort.h"
 #endif
 
 #endif
