@@ -6,7 +6,7 @@
  * @Website: www.heredifferent.com.cn
  * @Date: 2021-09-15 21:18:47
  * @LastEditors: YURI
- * @LastEditTime: 2021-09-16 12:48:06
+ * @LastEditTime: 2021-09-25 10:16:38
  */
 #include "dsSort.h"
 
@@ -25,6 +25,64 @@ static inline void dssortswap(DSSortElemType* A,DSSortElemType*B)
     *A=*B;
     *B=temp;
 }
+
+DSSortElemType* DSShellSort(DSSortElemType target[],int length){
+    int dk=0,temp,j;
+    for(dk=length/2;dk>=1;dk/=2){//步长减半
+        for(int i=dk;i<=length-1;i++){
+            if(target[i]<target[i-dk]){
+                temp=target[i];
+                for(j=i-dk;j>=0&&target[j]>temp;j-=dk){
+                    target[j+dk]=target[j];
+                }
+                target[j+dk]=temp;
+            }
+        }
+    }
+
+}
+
+
+
+
+int QuickPation(DSSortElemType target[],int low,int high)
+{
+    DSSortElemType pivot=target[low];
+    while (low<high)
+    {
+        while (low<high&&DS_DSSORT_ELEM_GREATER(target[high],pivot))high--;
+        target[low]=target[high];
+        while (low<high&&DS_DSSORT_ELEM_GREATER(pivot,target[low]))low++;
+        target[high]=target[low];       
+    }
+    target[low]=pivot;
+    return low;
+}
+void QuickSort(DSSortElemType target[],int low,int high)
+{
+    
+    if(low<high){
+        int pos= QuickPation(target,low,high);
+        QuickSort(target,low,pos-1);
+        QuickSort(target,pos+1,high);
+    }
+}
+/**
+ * @name: DSQuickSort
+ * @msg: 快排
+ * @param {DSSortElemType} target
+ * @param {int} length
+ * @return {*}
+ */
+DSSortElemType* DSQuickSort(DSSortElemType target[],int length){
+    if(target==NULL||length<1){
+        assert(!(target==NULL||length<1));
+        return NULL;
+    }
+    QuickSort(target,0,length-1);
+    return target;
+}
+
 /**
  * @name: DSInsertSort
  * @msg: 插入排序
@@ -101,6 +159,13 @@ Sortbundle DSSort_Init(enum DSSORTWAY sortway)
     case INSERT:
         sort.run=DSInsertSort;
         break;    
+    case QUICK:
+        sort.run=DSQuickSort;
+        break;
+    case SHELL:
+        sort.run=DSShellSort;
+        break;
+
     default:
         sort.run=DSBubbleSort;
         break;
