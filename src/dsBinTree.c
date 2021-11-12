@@ -10,6 +10,7 @@
  */
 #include "ds.h"
 #include <stdlib.h>
+
 DSBinTree DS_InitBinTree(){
     DSBinTree b;
     b.root=(dsBinTreeNode*)ds_malloc(sizeof(dsBinTreeNode));

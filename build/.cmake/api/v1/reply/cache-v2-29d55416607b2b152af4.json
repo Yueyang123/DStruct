@@ -15,7 +15,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "C:/MinGW/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/addr2line.exe"
+			"value" : "E:/SDK/Compiler/MinGW/mingw64/bin/addr2line.exe"
 		},
 		{
 			"name" : "CMAKE_AR",
@@ -31,7 +31,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "C:/MinGW/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/ar.exe"
+			"value" : "E:/SDK/Compiler/MinGW/mingw64/bin/ar.exe"
 		},
 		{
 			"name" : "CMAKE_BUILD_TYPE",
@@ -55,7 +55,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "f:/SDK/DataStruct/build"
+			"value" : "e:/SDK/DataStruct/build"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -79,7 +79,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "18"
+			"value" : "22"
 		},
 		{
 			"name" : "CMAKE_CACHE_PATCH_VERSION",
@@ -91,7 +91,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "4"
+			"value" : "0"
 		},
 		{
 			"name" : "CMAKE_COLOR_MAKEFILE",
@@ -159,7 +159,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "C:/MinGW/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/x86_64-w64-mingw32-g++.exe"
+			"value" : "E:/SDK/Compiler/MinGW/mingw64/bin/x86_64-w64-mingw32-g++.exe"
 		},
 		{
 			"name" : "CMAKE_CXX_COMPILER_AR",
@@ -175,7 +175,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "C:/MinGW/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/x86_64-w64-mingw32-gcc-ar.exe"
+			"value" : "E:/SDK/Compiler/MinGW/mingw64/bin/x86_64-w64-mingw32-gcc-ar.exe"
 		},
 		{
 			"name" : "CMAKE_CXX_COMPILER_RANLIB",
@@ -191,7 +191,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "C:/MinGW/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/x86_64-w64-mingw32-gcc-ranlib.exe"
+			"value" : "E:/SDK/Compiler/MinGW/mingw64/bin/x86_64-w64-mingw32-gcc-ranlib.exe"
 		},
 		{
 			"name" : "CMAKE_CXX_FLAGS",
@@ -303,7 +303,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "C:/MinGW/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/x86_64-w64-mingw32-gcc.exe"
+			"value" : "E:/SDK/Compiler/MinGW/mingw64/bin/x86_64-w64-mingw32-gcc.exe"
 		},
 		{
 			"name" : "CMAKE_C_COMPILER_AR",
@@ -319,7 +319,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "C:/MinGW/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/x86_64-w64-mingw32-gcc-ar.exe"
+			"value" : "E:/SDK/Compiler/MinGW/mingw64/bin/x86_64-w64-mingw32-gcc-ar.exe"
 		},
 		{
 			"name" : "CMAKE_C_COMPILER_RANLIB",
@@ -335,7 +335,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "C:/MinGW/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/x86_64-w64-mingw32-gcc-ranlib.exe"
+			"value" : "E:/SDK/Compiler/MinGW/mingw64/bin/x86_64-w64-mingw32-gcc-ranlib.exe"
 		},
 		{
 			"name" : "CMAKE_C_FLAGS",
@@ -447,7 +447,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "C:/MinGW/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/dlltool.exe"
+			"value" : "E:/SDK/Compiler/MinGW/mingw64/bin/dlltool.exe"
 		},
 		{
 			"name" : "CMAKE_EDIT_COMMAND",
@@ -587,7 +587,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "MinGW Makefiles"
+			"value" : "Unix Makefiles"
 		},
 		{
 			"name" : "CMAKE_GENERATOR_INSTANCE",
@@ -647,7 +647,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "F:/SDK/DataStruct"
+			"value" : "E:/SDK/DataStruct"
 		},
 		{
 			"name" : "CMAKE_INSTALL_PREFIX",
@@ -675,7 +675,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "C:/MinGW/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/ld.exe"
+			"value" : "E:/SDK/Compiler/MinGW/mingw64/bin/ld.exe"
 		},
 		{
 			"name" : "CMAKE_MAKE_PROGRAM",
@@ -691,7 +691,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "C:/MinGW/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe"
+			"value" : "E:/SDK/Compiler/MinGW/mingw64/bin/make.exe"
 		},
 		{
 			"name" : "CMAKE_MODULE_LINKER_FLAGS",
@@ -787,7 +787,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "C:/MinGW/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/nm.exe"
+			"value" : "E:/SDK/Compiler/MinGW/mingw64/bin/nm.exe"
 		},
 		{
 			"name" : "CMAKE_NUMBER_OF_MAKEFILES",
@@ -815,7 +815,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "C:/MinGW/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/objcopy.exe"
+			"value" : "E:/SDK/Compiler/MinGW/mingw64/bin/objcopy.exe"
 		},
 		{
 			"name" : "CMAKE_OBJDUMP",
@@ -831,7 +831,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "C:/MinGW/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/objdump.exe"
+			"value" : "E:/SDK/Compiler/MinGW/mingw64/bin/objdump.exe"
 		},
 		{
 			"name" : "CMAKE_PLATFORM_INFO_INITIALIZED",
@@ -895,7 +895,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "C:/MinGW/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/ranlib.exe"
+			"value" : "E:/SDK/Compiler/MinGW/mingw64/bin/ranlib.exe"
 		},
 		{
 			"name" : "CMAKE_RC_COMPILER",
@@ -911,7 +911,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "C:/MinGW/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/windres.exe"
+			"value" : "x86_64-w64-mingw32-windres"
 		},
 		{
 			"name" : "CMAKE_RC_COMPILER_WORKS",
@@ -1019,7 +1019,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "C:/MinGW/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/readelf.exe"
+			"value" : "E:/SDK/Compiler/MinGW/mingw64/bin/readelf.exe"
 		},
 		{
 			"name" : "CMAKE_ROOT",
@@ -1031,7 +1031,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "C:/Program Files/CMake/share/cmake-3.18"
+			"value" : "C:/Program Files/CMake/share/cmake-3.22"
 		},
 		{
 			"name" : "CMAKE_SHARED_LINKER_FLAGS",
@@ -1239,7 +1239,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "C:/MinGW/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/strip.exe"
+			"value" : "E:/SDK/Compiler/MinGW/mingw64/bin/strip.exe"
 		},
 		{
 			"name" : "CMAKE_VERBOSE_MAKEFILE",
@@ -1267,7 +1267,19 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "F:/SDK/DataStruct/build"
+			"value" : "E:/SDK/DataStruct/build"
+		},
+		{
+			"name" : "DATA_IS_TOP_LEVEL",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "ON"
 		},
 		{
 			"name" : "DATA_SOURCE_DIR",
@@ -1279,7 +1291,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "F:/SDK/DataStruct"
+			"value" : "E:/SDK/DataStruct"
 		}
 	],
 	"kind" : "cache",

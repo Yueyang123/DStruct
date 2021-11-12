@@ -1,23 +1,21 @@
+
+# Consider dependencies only in project.
+set(CMAKE_DEPENDS_IN_PROJECT_ONLY OFF)
+
 # The set of languages for which implicit dependencies are needed:
 set(CMAKE_DEPENDS_LANGUAGES
-  "C"
   )
-# The set of files for implicit dependencies of each language:
-set(CMAKE_DEPENDS_CHECK_C
-  "F:/SDK/DataStruct/src/dsBinTree.c" "F:/SDK/DataStruct/build/CMakeFiles/main.dir/src/dsBinTree.c.obj"
-  "F:/SDK/DataStruct/src/dsList.c" "F:/SDK/DataStruct/build/CMakeFiles/main.dir/src/dsList.c.obj"
-  "F:/SDK/DataStruct/src/dsMGraph.c" "F:/SDK/DataStruct/build/CMakeFiles/main.dir/src/dsMGraph.c.obj"
-  "F:/SDK/DataStruct/src/dsQueue.c" "F:/SDK/DataStruct/build/CMakeFiles/main.dir/src/dsQueue.c.obj"
-  "F:/SDK/DataStruct/src/dsSingleLink.c" "F:/SDK/DataStruct/build/CMakeFiles/main.dir/src/dsSingleLink.c.obj"
-  "F:/SDK/DataStruct/src/dsSort.c" "F:/SDK/DataStruct/build/CMakeFiles/main.dir/src/dsSort.c.obj"
-  "F:/SDK/DataStruct/src/dsStack.c" "F:/SDK/DataStruct/build/CMakeFiles/main.dir/src/dsStack.c.obj"
-  "F:/SDK/DataStruct/src/main.c" "F:/SDK/DataStruct/build/CMakeFiles/main.dir/src/main.c.obj"
-  )
-set(CMAKE_C_COMPILER_ID "GNU")
 
-# The include file search paths:
-set(CMAKE_C_TARGET_INCLUDE_PATH
-  "../include"
+# The set of dependency files which are needed:
+set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "E:/SDK/DataStruct/src/dsBinTree.c" "CMakeFiles/main.dir/src/dsBinTree.c.obj" "gcc" "CMakeFiles/main.dir/src/dsBinTree.c.obj.d"
+  "E:/SDK/DataStruct/src/dsList.c" "CMakeFiles/main.dir/src/dsList.c.obj" "gcc" "CMakeFiles/main.dir/src/dsList.c.obj.d"
+  "E:/SDK/DataStruct/src/dsMGraph.c" "CMakeFiles/main.dir/src/dsMGraph.c.obj" "gcc" "CMakeFiles/main.dir/src/dsMGraph.c.obj.d"
+  "E:/SDK/DataStruct/src/dsQueue.c" "CMakeFiles/main.dir/src/dsQueue.c.obj" "gcc" "CMakeFiles/main.dir/src/dsQueue.c.obj.d"
+  "E:/SDK/DataStruct/src/dsSingleLink.c" "CMakeFiles/main.dir/src/dsSingleLink.c.obj" "gcc" "CMakeFiles/main.dir/src/dsSingleLink.c.obj.d"
+  "E:/SDK/DataStruct/src/dsSort.c" "CMakeFiles/main.dir/src/dsSort.c.obj" "gcc" "CMakeFiles/main.dir/src/dsSort.c.obj.d"
+  "E:/SDK/DataStruct/src/dsStack.c" "CMakeFiles/main.dir/src/dsStack.c.obj" "gcc" "CMakeFiles/main.dir/src/dsStack.c.obj.d"
+  "E:/SDK/DataStruct/src/main.c" "CMakeFiles/main.dir/src/main.c.obj" "gcc" "CMakeFiles/main.dir/src/main.c.obj.d"
   )
 
 # Targets to which this target links.

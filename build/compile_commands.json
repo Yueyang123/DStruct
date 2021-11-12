@@ -1,42 +1,42 @@
 [
 {
-  "directory": "F:/SDK/DataStruct/build",
-  "command": "C:\\MinGW\\x86_64-8.1.0-release-posix-seh-rt_v6-rev0\\mingw64\\bin\\x86_64-w64-mingw32-gcc.exe  @CMakeFiles/main.dir/includes_C.rsp -g -o CMakeFiles\\main.dir\\src\\dsBinTree.c.obj -c F:\\SDK\\DataStruct\\src\\dsBinTree.c",
-  "file": "F:/SDK/DataStruct/src/dsBinTree.c"
+  "directory": "E:/SDK/DataStruct/build",
+  "command": "E:/SDK/Compiler/MinGW/mingw64/bin/x86_64-w64-mingw32-gcc.exe  @CMakeFiles/main.dir/includes_C.rsp -g -o CMakeFiles/main.dir/src/dsBinTree.c.obj -c E:/SDK/DataStruct/src/dsBinTree.c",
+  "file": "E:/SDK/DataStruct/src/dsBinTree.c"
 },
 {
-  "directory": "F:/SDK/DataStruct/build",
-  "command": "C:\\MinGW\\x86_64-8.1.0-release-posix-seh-rt_v6-rev0\\mingw64\\bin\\x86_64-w64-mingw32-gcc.exe  @CMakeFiles/main.dir/includes_C.rsp -g -o CMakeFiles\\main.dir\\src\\dsList.c.obj -c F:\\SDK\\DataStruct\\src\\dsList.c",
-  "file": "F:/SDK/DataStruct/src/dsList.c"
+  "directory": "E:/SDK/DataStruct/build",
+  "command": "E:/SDK/Compiler/MinGW/mingw64/bin/x86_64-w64-mingw32-gcc.exe  @CMakeFiles/main.dir/includes_C.rsp -g -o CMakeFiles/main.dir/src/dsList.c.obj -c E:/SDK/DataStruct/src/dsList.c",
+  "file": "E:/SDK/DataStruct/src/dsList.c"
 },
 {
-  "directory": "F:/SDK/DataStruct/build",
-  "command": "C:\\MinGW\\x86_64-8.1.0-release-posix-seh-rt_v6-rev0\\mingw64\\bin\\x86_64-w64-mingw32-gcc.exe  @CMakeFiles/main.dir/includes_C.rsp -g -o CMakeFiles\\main.dir\\src\\dsMGraph.c.obj -c F:\\SDK\\DataStruct\\src\\dsMGraph.c",
-  "file": "F:/SDK/DataStruct/src/dsMGraph.c"
+  "directory": "E:/SDK/DataStruct/build",
+  "command": "E:/SDK/Compiler/MinGW/mingw64/bin/x86_64-w64-mingw32-gcc.exe  @CMakeFiles/main.dir/includes_C.rsp -g -o CMakeFiles/main.dir/src/dsMGraph.c.obj -c E:/SDK/DataStruct/src/dsMGraph.c",
+  "file": "E:/SDK/DataStruct/src/dsMGraph.c"
 },
 {
-  "directory": "F:/SDK/DataStruct/build",
-  "command": "C:\\MinGW\\x86_64-8.1.0-release-posix-seh-rt_v6-rev0\\mingw64\\bin\\x86_64-w64-mingw32-gcc.exe  @CMakeFiles/main.dir/includes_C.rsp -g -o CMakeFiles\\main.dir\\src\\dsQueue.c.obj -c F:\\SDK\\DataStruct\\src\\dsQueue.c",
-  "file": "F:/SDK/DataStruct/src/dsQueue.c"
+  "directory": "E:/SDK/DataStruct/build",
+  "command": "E:/SDK/Compiler/MinGW/mingw64/bin/x86_64-w64-mingw32-gcc.exe  @CMakeFiles/main.dir/includes_C.rsp -g -o CMakeFiles/main.dir/src/dsQueue.c.obj -c E:/SDK/DataStruct/src/dsQueue.c",
+  "file": "E:/SDK/DataStruct/src/dsQueue.c"
 },
 {
-  "directory": "F:/SDK/DataStruct/build",
-  "command": "C:\\MinGW\\x86_64-8.1.0-release-posix-seh-rt_v6-rev0\\mingw64\\bin\\x86_64-w64-mingw32-gcc.exe  @CMakeFiles/main.dir/includes_C.rsp -g -o CMakeFiles\\main.dir\\src\\dsSingleLink.c.obj -c F:\\SDK\\DataStruct\\src\\dsSingleLink.c",
-  "file": "F:/SDK/DataStruct/src/dsSingleLink.c"
+  "directory": "E:/SDK/DataStruct/build",
+  "command": "E:/SDK/Compiler/MinGW/mingw64/bin/x86_64-w64-mingw32-gcc.exe  @CMakeFiles/main.dir/includes_C.rsp -g -o CMakeFiles/main.dir/src/dsSingleLink.c.obj -c E:/SDK/DataStruct/src/dsSingleLink.c",
+  "file": "E:/SDK/DataStruct/src/dsSingleLink.c"
 },
 {
-  "directory": "F:/SDK/DataStruct/build",
-  "command": "C:\\MinGW\\x86_64-8.1.0-release-posix-seh-rt_v6-rev0\\mingw64\\bin\\x86_64-w64-mingw32-gcc.exe  @CMakeFiles/main.dir/includes_C.rsp -g -o CMakeFiles\\main.dir\\src\\dsSort.c.obj -c F:\\SDK\\DataStruct\\src\\dsSort.c",
-  "file": "F:/SDK/DataStruct/src/dsSort.c"
+  "directory": "E:/SDK/DataStruct/build",
+  "command": "E:/SDK/Compiler/MinGW/mingw64/bin/x86_64-w64-mingw32-gcc.exe  @CMakeFiles/main.dir/includes_C.rsp -g -o CMakeFiles/main.dir/src/dsSort.c.obj -c E:/SDK/DataStruct/src/dsSort.c",
+  "file": "E:/SDK/DataStruct/src/dsSort.c"
 },
 {
-  "directory": "F:/SDK/DataStruct/build",
-  "command": "C:\\MinGW\\x86_64-8.1.0-release-posix-seh-rt_v6-rev0\\mingw64\\bin\\x86_64-w64-mingw32-gcc.exe  @CMakeFiles/main.dir/includes_C.rsp -g -o CMakeFiles\\main.dir\\src\\dsStack.c.obj -c F:\\SDK\\DataStruct\\src\\dsStack.c",
-  "file": "F:/SDK/DataStruct/src/dsStack.c"
+  "directory": "E:/SDK/DataStruct/build",
+  "command": "E:/SDK/Compiler/MinGW/mingw64/bin/x86_64-w64-mingw32-gcc.exe  @CMakeFiles/main.dir/includes_C.rsp -g -o CMakeFiles/main.dir/src/dsStack.c.obj -c E:/SDK/DataStruct/src/dsStack.c",
+  "file": "E:/SDK/DataStruct/src/dsStack.c"
 },
 {
-  "directory": "F:/SDK/DataStruct/build",
-  "command": "C:\\MinGW\\x86_64-8.1.0-release-posix-seh-rt_v6-rev0\\mingw64\\bin\\x86_64-w64-mingw32-gcc.exe  @CMakeFiles/main.dir/includes_C.rsp -g -o CMakeFiles\\main.dir\\src\\main.c.obj -c F:\\SDK\\DataStruct\\src\\main.c",
-  "file": "F:/SDK/DataStruct/src/main.c"
+  "directory": "E:/SDK/DataStruct/build",
+  "command": "E:/SDK/Compiler/MinGW/mingw64/bin/x86_64-w64-mingw32-gcc.exe  @CMakeFiles/main.dir/includes_C.rsp -g -o CMakeFiles/main.dir/src/main.c.obj -c E:/SDK/DataStruct/src/main.c",
+  "file": "E:/SDK/DataStruct/src/main.c"
 }
 ]

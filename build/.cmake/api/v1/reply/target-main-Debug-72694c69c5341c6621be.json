@@ -2,10 +2,10 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "F:/SDK/DataStruct/bin/main.exe"
+			"path" : "E:/SDK/DataStruct/bin/main.exe"
 		},
 		{
-			"path" : "F:/SDK/DataStruct/bin/main.pdb"
+			"path" : "E:/SDK/DataStruct/bin/main.pdb"
 		}
 	],
 	"backtrace" : 1,
@@ -59,7 +59,7 @@
 			[
 				{
 					"backtrace" : 3,
-					"path" : "F:/SDK/DataStruct/include"
+					"path" : "E:/SDK/DataStruct/include"
 				}
 			],
 			"language" : "C",
@@ -91,7 +91,7 @@
 			},
 			{
 				"backtrace" : 2,
-				"fragment" : "-LF:\\SDK\\DataStruct\\lib",
+				"fragment" : "-LE:/SDK/DataStruct/lib",
 				"role" : "libraryPath"
 			},
 			{
